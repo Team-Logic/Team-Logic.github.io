@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+* {
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    /* padding: 0 20px; */
+    height: 60px;
+    background-color: #293252;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 70px;
+    font-size: 2rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+nav > span {
+    color: #fff;
+    font-size: 2rem;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.container {
+    max-width: 70vh;
+    margin: 0 auto;
+}
+
+ul {
+    align-items: center;
+    margin: 0;
+    padding: 0 100ppx;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    
+    padding-right: 10px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+xmp {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.navItems:hover {
+    background-color: #fff;
+    color: #293252;
+}
+
+.logic {
+    color: #fff;
+}
+
+.logic:hover {
+    background-color: #fff;
+    color: #293252;
+}
+
+.logicA {
+    padding: 0 10px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
