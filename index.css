@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "light";
+    src: url(./src/font/NanumSquareOTF_acL.woff) format("woff");
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(./src/font/NanumSquareOTF_acR.woff) format("woff");
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(./src/font/NanumSquareOTF_acB.woff) format("woff");
+}
+
+@font-face {
+    font-family: "extra bold";
+    src: url(./src/font/NanumSquareOTF_acEB.woff) format("woff");
+}
+
+.light {
+    font-family: "light";
+}
+
+.regular {
+    font-family: "regular";
+}
+
+.bold {
+    font-family: "bold";
+}
+
+.extra-bold {
+    font-family: "extra bold";
+}
+
+* {
+    font-family: "regular";
+}
+
+.highlight {
+    color: #262B44;
+}
+
+.lesh {
+    color: #8EC86D;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* LOGIC 로고 배경 색상 => #262B44 */
+}
+
+nav {
+    background-color: #ffffff;
+    /* background-color: #ffffff77; */
+    /* backdrop-filter: blur(15px); */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.navbar-brand:hover {
+    color: #8EC86D;
+}
+
+main {
+    display: flex;
+    padding-top: 70px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.profileTitle {
+    text-align: center;
+    font-size: 30px;
+}
